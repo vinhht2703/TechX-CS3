@@ -1,4 +1,4 @@
-lstDemo = [
+lstTest1 = [
     {
         "id": 1,
         "value": [
@@ -11,7 +11,7 @@ lstDemo = [
     {"id": 5, "value": []},
 ]
 
-lstTest = [
+lstTest2 = [
     {
         "id": 1,
         "value": [
@@ -25,22 +25,21 @@ lstTest = [
     {"id": 5, "value": []},
 ]
 
-lstResult = [
-    {"id": 1},
-    {"id": 2},
-    {"id": 3},
-    {"id": 4},
-    {"id": 5},
-]
+# lstResult = [
+#     {"id": 1},
+#     {"id": 2},
+#     {"id": 3},
+#     {"id": 4},
+#     {"id": 5},
+# ]
 
+# def getIds(data, res=[]):
+#     for item in data:
+#         res.append({"id": item["id"]})
+#         if len(item["value"]) > 0:
+#             getIds(item["value"], res)
 
-def getIds(data, res=[]):
-    for item in data:
-        res.append({"id": item["id"]})
-        if len(item["value"]) > 0:
-            getIds(item["value"], res)
-
-    return res
+#     return res
 
 
 # print(getIds(lstDemo))
@@ -50,9 +49,9 @@ def getList(data):
     result = []
     for item in data:
         result.append({"id": item["id"]})
-        if len(item["value"] != 0):
-            result.extend(getIds(item["value"]))
+        result.extend(getList(item["value"]))
 
     return result
 
-print(getList(lstDemo))
+
+print(getList(lstTest1))
