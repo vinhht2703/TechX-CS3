@@ -6,15 +6,15 @@ while i < n:
 
 Phân tích:
 Cho n = 3
-- Lần 1: i = 0, i < 3 -> i += 1
+- Lần 1: i = 0, 0 < 3 -> i += 1
 - Lần 2: i = 1, 1 < 3 -> i += 1
 - Lần 3: i = 2, 2 < 3 -> i += 1
 - Lần 4: i = 3, 3 không < 3 => dừng vòng lặp (không tính bước này)
 
 Suy ra:
-i= 0 (1 bước)
+i = 0 (1 bước)
 while i < n: (n bước)
-    i = i+ 1 (n bước => i có giá trị lần lượt từ 0, 1, 2, 3 3, ..., n)
+    i = i+ 1 (n bước => i có giá trị lần lượt từ 0, 1, 2, 3, ..., n)
 
 Kết quả:
 F(N) = 2n + 1

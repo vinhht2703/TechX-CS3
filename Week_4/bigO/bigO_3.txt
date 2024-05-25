@@ -1,13 +1,18 @@
 -------------------------
-while (i < n):
+while (i < n):                   -> n
 
-    while (a < n):
-        while (b < n):
-            b = b + 1
-        a = a + 1
+    while (a < n):               -> n^2
+        while (b < n):           -> n^3
+            b = b + 1            -> n^3
+        a = a + 1                -> n^2
     
-    while (c + n):
-        c = c + 1
+    while (c < n):               -> n^2
+        c = c + 1                -> n^2
         
-    i = i + 100
+    i = i + 100                  -> n
 -------------------------
+
+
+Kết quả:
+F(N) = 2n^3 + 4n^2 + 2n
+Time complexity: O(n^3)
