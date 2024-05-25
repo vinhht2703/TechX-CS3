@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "name": "iphone1",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 3000
+    },
+    {
+        "id": 2,
+        "name": "iphone2",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 4000
+    },
+    {
+        "id": 3,
+        "name": "iphone3",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 5000
+    },
+    {
+        "id": 4,
+        "name": "iphone4",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 6000
+    },
+    {
+        "id": 5,
+        "name": "iphone5",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 7000
+    },
+    {
+        "id": 6,
+        "name": "iphone6",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 8000
+    },
+    {
+        "id": 7,
+        "name": "iphone7",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 9000
+    },
+    {
+        "id": 8,
+        "name": "iphone8",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 10000
+    },
+    {
+        "id": 9,
+        "name": "iphone9",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 11000
+    },
+    {
+        "id": 10,
+        "name": "iphone10",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 12000
+    },
+    {
+        "id": 11,
+        "name": "iphone11",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 13000
+    },
+    {
+        "id": 12,
+        "name": "iphone12",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 14000
+    },
+    {
+        "id": 13,
+        "name": "iphone13",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 15000
+    },
+    {
+        "id": 14,
+        "name": "iphone14",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 16000
+    },
+    {
+        "id": 15,
+        "name": "iphone15",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 17000
+    },
+    {
+        "id": 16,
+        "name": "iphone16",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 18000
+    },
+    {
+        "id": 17,
+        "name": "iphone17",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 19000
+    },
+    {
+        "id": 18,
+        "name": "iphone18",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 20000
+    },
+    {
+        "id": 19,
+        "name": "iphone19",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 21000
+    },
+    {
+        "id": 20,
+        "name": "iphone20",
+        "imagePath": "./img/iphone.png",
+        "description": "đây là sản phẩm hiện đại",
+        "price": 22000
+    }
+]

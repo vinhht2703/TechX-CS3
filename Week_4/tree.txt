@@ -1,0 +1,7 @@
+TREE
+
+Trie, Binary Tree, Binary Search Tree, AVL Tree, Red Black Tree, Graph, ...
+
+Khai niem: Node, Edge, Level, Depth, Height, Size
+
+Tree BigO:
