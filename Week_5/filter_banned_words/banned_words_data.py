@@ -1,0 +1,23 @@
+# Từ cấm, tục tĩu có dấu
+banned_words_data = [
+    "đụ",
+    "địt",
+    "cặc",
+    "lồn",
+    "bướm",
+    "cứt",
+    "buồi",
+    "đái",
+    "ỉa",
+    "chịch",
+    "du",
+    "dit",
+    "cac",
+    "lon",
+    "buom",
+    "cut",
+    "buoi",
+    "dai",
+    "ia",
+    "chich",
+]
