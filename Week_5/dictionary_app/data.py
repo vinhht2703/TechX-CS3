@@ -1,0 +1,17 @@
+rawData = {
+    "apace": {"part_of_speech": "adverb", "vn": "nhanh chóng"},
+    "apple": {"part_of_speech": "noun", "vn": "quả táo"},
+    "adage": {"part_of_speech": "noun", "vn": "châm ngôn"},
+    "angel": {"part_of_speech": "noun", "vn": "thiên thần"},
+    "world": {"part_of_speech": "noun", "vn": "thế giới"},
+    "python": {"part_of_speech": "noun", "vn": "trăn"},
+    "banana": {"part_of_speech": "noun", "vn": "quả chuối"},
+    "bank": {"part_of_speech": "noun", "vn": "ngân hàng"},
+    "bath": {"part_of_speech": "noun", "vn": "tắm"},
+    "bail": {"part_of_speech": "noun", "vn": "tiền bảo lãnh"},
+    "book": {"part_of_speech": "noun", "vn": "cuốn sách"},
+    "boss": {"part_of_speech": "noun", "vn": "ông chủ"},
+    "run": {"part_of_speech": "verb", "vn": "chạy"},
+    "egg": {"part_of_speech": "noun", "vn": "trứng"},
+    "fan": {"part_of_speech": "noun", "vn": "quạt"},
+}
