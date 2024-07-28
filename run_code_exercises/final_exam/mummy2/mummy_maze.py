@@ -38,9 +38,8 @@ surfaceNoti = pygame.transform.scale(pygame.image.load("./image/end.png"), (400,
 surfaceLoseMess = pygame.transform.scale(
     pygame.image.load("./image/tryagain_red.png"), (200, 80)
 )
-surfaceWinMess = pygame.transform.scale(
-    pygame.image.load("./image/win.png"), (200, 80)
-)
+surfaceWinMess = pygame.transform.scale(pygame.image.load("./image/win.png"), (200, 80))
+surfaceTrap = pygame.transform.scale(pygame.image.load("./image/end.png"), (100, 100))
 
 
 # (0,0) - (60,0) - (120, 0) - (180 , 0) - (240, 0)
@@ -59,11 +58,10 @@ mummyLeft = pygame.image.load("./image/mummy/redleft.png")
 mummyRight = pygame.image.load("./image/mummy/redright.png")
 
 lstWall = [
-    [400, 200, 10, 100, (0, 0, 255)],
-    [200, 300, 10, 100, (255, 0, 0)],
+    [300, 300, 10, 100, (255, 0, 0)],
     [200, 400, 100, 10, (255, 0, 0)],
 ]  # wallX, wallY, wallW, wallH, color
-door = [200, 500, 100, 100, (0, 255, 0)]
+door = [500, 200, 100, 100, (0, 255, 0)]
 
 
 class Player:
@@ -71,7 +69,7 @@ class Player:
 
     def __init__(self):
         self.x = 0
-        self.y = 0
+        self.y = 400
         self.surface = pygame.Surface((100, 100), pygame.SRCALPHA)
         self.surface.blit(playerDown, (20, 20), (0, 0, 60, 60))
         self.timeSkip = 0
@@ -190,7 +188,7 @@ class Player:
 class Mummy:
     def __init__(self):
         self.x = 500
-        self.y = 500
+        self.y = 100
         self.surface = pygame.Surface((100, 100), pygame.SRCALPHA)
         self.surface.blit(mummyDown, (20, 20), (0, 0, 60, 60))
         self.timeSkip = 0
@@ -464,6 +462,10 @@ def main():
 
         DISPLAYSURF.blit(surfaceMap, (0, 0))
 
+        # render trap
+        DISPLAYSURF.blit(surfaceTrap, (400, 200))
+        trapRect = surfaceTrap.get_rect(topleft=(400, 200))
+
         # render walls
         for wall in lstWall:
             pygame.draw.rect(DISPLAYSURF, wall[4], (wall[0], wall[1], wall[2], wall[3]))
@@ -480,7 +482,7 @@ def main():
         mummy.draw()
         mummy.updateRect()
 
-        if player.rect.colliderect(mummy.rect):
+        if player.rect.colliderect(mummy.rect) or player.rect.colliderect(trapRect):
             lose = True
             DISPLAYSURF.blit(surfaceNoti, (100, 100))
             DISPLAYSURF.blit(surfaceLoseMess, (200, 400))
